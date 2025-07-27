@@ -72,7 +72,7 @@ I am passionate about education and have taught graduate-level courses including
 - **International Doctoral Student Award** from University of Waterloo (2019-2023)
 - **Traffic Safety Award** (2015)
 
-My research has been published in top-tier venues including IEEE/CVF Conference on Computer Vision and Pattern Recognition, IEEE Transactions on Intelligent Transportation Systems, and IEEE Access.
+My research has been published in top-tier venues including IEEE/CVF Conference on Computer Vision and Pattern Recognition, Neurips, IEEE Transactions on Intelligent Transportation Systems, and IEEE Access.
 
 For more details about my research, publications, and experience, please explore the [publications](/publications/) and [CV](/cv/) sections of this website.
 
