@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://amir4g.github.io/sitemap.xml
