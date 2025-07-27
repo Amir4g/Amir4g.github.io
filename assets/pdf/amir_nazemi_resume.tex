@@ -1,0 +1,453 @@
+%-------------------------
+% Resume in Latex
+% Author : Vidushi Wahal
+% Modified: Amir Nazemi
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\sloppy
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{color}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=gray,
+    }
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    {#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-1pt}\\
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#3} & \textit{\small #4} 
+    \end{tabular*}\vspace{-5 pt}
+}
+
+\newcommand{\resumeSubheadingLong}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-1pt}\\
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#3} & \textit{\small #4} 
+    \end{tabular*}\vspace{-12pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\LARGE Amir Nazemi, Ph.D.}} &\vspace{6pt}
+\\
+  LinkedIn : \href{https://www.linkedin.com/in/amir-nazemi-edu/}{\underline{https://www.linkedin.com/in/amir-nazemi-edu/}}& Email : \href{mailto:amir.nazemi@uwaterloo.ca}{\underline{amir.nazemi@uwaterloo.ca}} \vspace{1pt}\\ 
+ Portfolio: \href{https://vip.uwaterloo.ca/amir-nazemi/}{\underline{https://vip.uwaterloo.ca/amir-nazemi/}} &  Mobile : +1(226) 581-4634 \vspace{1pt}\\ Orcid: \href{https://orcid.org/0000-0002-8405-473X}{\underline{https://orcid.org/0000-0002-8405-473X}} &  Waterloo, ON, Canada \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheadingLong
+      {Postdoctoral Researcher}{University of Waterloo, Canada}
+      {Systems Design Engineering}{2024 – present}
+      \vspace{1px}
+      \resumeItemListStart
+     {Sport Analytics Research Group, Homography estimation, Puck detection, Player action recognition, Game event detection}
+    \resumeItemListEnd 
+
+    \resumeSubheadingLong
+      {Postdoctoral Researcher}{University of Waterloo, Canada}
+      {Systems Design Engineering}{2023 – 2024}
+      \vspace{1px}
+      \resumeItemListStart
+     {AI for Medical Data, Diffusion Models for Inverse Problems, Video Understanding, AI for Dietary Data}
+    \resumeItemListEnd 
+
+    \resumeSubheadingLong
+      {Doctor of Philosophy (Ph.D.)}{University of Waterloo, Canada}
+      {Systems Design Engineering}{2019 – 2023}
+      \vspace{1px}
+      \resumeItemListStart
+     Thesis: {Continual Learning-based Video Object Segmentation}
+    \newline
+     GPA: 91/100
+    \resumeItemListEnd
+    
+    \resumeSubheadingLong
+      {Master of Science (M.Sc.)}{Shiraz University, Iran}
+      {Artificial Intelligence}{2011 – 2014}
+      \vspace{1px}
+      \resumeItemListStart
+      Thesis: {Object Recognition via Sparse Coding}
+      \newline
+      GPA: 90/100
+    \resumeItemListEnd
+    
+    \resumeSubheadingLong
+      {Bachelor (B.Sc.)}{Shahid Bahonar University of Kerman, Iran}
+      {Computer Software Engineering}{2006 – 2010}
+      \vspace{1px}
+      \resumeItemListStart
+      Thesis: {Multi-National Particle Swarm Optimization Algorithm}
+        \newline
+      GPA: 78/100
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------Teaching Experience------------
+\section{Teaching Experience and Certificates}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Lecturer}{2022}
+      \resumeItemListStart
+      \resumeItem{{Statistical Image Processing and Multidimensional Modeling (SYDE 672)}}
+          {}
+        \begin{itemize}
+        \item {Graduate level course for PhD and M.Sc students.}
+        \item{Course perception surveys scores: 4.1/5.}
+        \item{Inverse problems, multidimensional modeling, large-scale statistical problems, generative models}
+          \end{itemize}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Center for Teaching Excellence (CTE)}{2021 - 2022}
+      \resumeItemListStart
+      \resumeItem{{Fundamentals of University Teaching (FUT) Certificate.}}
+          {}
+        \begin{itemize}
+        \item{Three microteaching sessions.}
+        \item{Six workshops: Teaching methods; Effective lesson plan; Supporting student mental health; Shaping classroom dynamics; Social anxiety in classroom; Statements of teaching philosophy.}
+        \end{itemize}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Teaching Assistant}{2020 - 2022}
+      \resumeItemListStart
+      \resumeItem{Linear Signals and System – BME 252 - [Spring 2022].}
+      \resumeItem{Algorithms and Data Structures – MTE140 - [Winter 2022].}
+      \resumeItem{Linear Signals and System – SYDE 252 - [Fall 2021].}
+      \resumeItem{Linear Signals and System – BME 252 - [Spring 2021].}
+      \resumeItem{Intro to Complex Systems - SYDE 532 - [Winter 2021].}
+      \resumeItem{Digital Computation - SYDE 121 - [Fall 2020].}
+      \resumeItem{Pattern Recognition - SYDE 675 - [Winter 2020].}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Shiraz University}{Shiraz, Iran}
+      {Teaching Assistant}{2012 - 2016}
+      \resumeItemListStart
+        \resumeItem{Advanced Pattern Recognition [Spring 2016].}{}
+        \resumeItem{Computer Vision [2014 - 2015].}{}
+        \resumeItem{Statistical Pattern Recognition [Fall 2012].} {}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------Awards------------
+\section{Awards}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Best Paper Award in the Hockey Analytics Conference}{Linköping, Sweden.}{Buzko K., Nazemi A., Clausi DA., Chen Y. Ice Hockey Action Recognition via Contextual Priors.}{2025} 
+
+    \resumeSubheading
+    {International Doctoral Student Award }{Waterloo, Canada}{By University of Waterloo.}{2019 - 2023} 
+
+    \resumeSubheading
+    {CVPR Challenge Finalist}
+    {Virtual}
+    {Tong J, Nazemi A, Shafiee M, Fieguth P. CLVision 2020 Challenge Solution.}{2020} 
+
+    \resumeSubheading
+      {Iran Police National Traffic Safety Award} {Tehran, Iran}
+      {for "Iranian on road vehicles Make and Model Recognition System".}
+      {2015}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+ \section{Research Experience}
+   \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {University of Waterloo}{Waterloo, Canada}{Research Collaboration}{2020 - present}
+    \resumeItemListStart
+    \resumeItem{\textbf{Stathletes Inc - [2024 - present]}}
+        \begin{itemize}
+        \item{Ice hockey broadcast video analysis.} 
+        \end{itemize}
+
+      \resumeItem{\textbf{Moonrise Medical Inc - [2023 - 2024]}}
+    \begin{itemize}
+    \item{Developing Machine Learning models on Doppler ultrasound data.} 
+    \end{itemize}
+
+      \resumeItem{\textbf{Microsoft Office Media Group - [2020 - 2024]}}
+    \begin{itemize}
+    \item{Machine Learning for visual relation detection.}
+    \item{Semi-supervised video object segmentation.}
+    \end{itemize}
+
+    \resumeItem{\textbf{Nutrition and Dietary Research Group - [2021 - present]}}
+    \begin{itemize}
+    \item{A University of Waterloo multidisciplinary research project.}
+    \item{AI modeling of dietary intakes in the presence of measurement error.}
+    \item{AI for estimating usual intake distributions of multiple dietary components.}
+    \end{itemize}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Waterloo Artificial Intelligence Institute (Waterloo.ai)}{Waterloo, Canada}
+      {Research Assistance}{2019 - 2020}
+      \resumeItemListStart
+      \resumeItem{{Collaboration with ETRI of South Korea.}}
+          {}
+        \begin{itemize}
+            \item{Mitigating catastrophic forgetting on CNN models.}
+        \end{itemize}
+      \resumeItemListEnd
+
+     \resumeSubheading
+      {INRIA STARS Team}{Sophia Antipolis, France}
+      {Research Intern}{2017 – 2018}
+      \resumeItemListStart
+      \resumeItem{{Recognizing human actions using RGB videos.}}
+          {}
+      \resumeItemListEnd
+
+     \resumeSubheading
+      {IPM - Institute for Research in Fundamental Sciences}{Tehran, Iran}
+      {Research Assistance}{2013 - 2014}
+
+      \resumeSubheading
+      {CVPR Lab – Shiraz University}{Shiraz, Iran}
+      {Research Assistance}{2011 - 2017}
+     
+  \resumeSubHeadingListEnd
+
+%-----------MENTORSHIP-----------------
+ \section{Mentorship}
+   \resumeSubHeadingListStart
+
+        \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Graduate Research Assistants}{2024 - present}
+      \resumeItemListStart
+          \resumeItem{{Co-mentoring 2 PhD and 6 master students in the sport analytics group.}}
+          {}
+        \begin{itemize}
+            \item{Utilizing Kanban methods such as Jira for the academic project management.}
+        \end{itemize}  
+      \resumeItemListEnd
+   
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Graduate Research Assistants}{2023 - 2024}
+      \resumeItemListStart
+        \resumeItem{{Sepehr Ghavam - [Winter 2024]}}
+          {}
+        \begin{itemize}
+            \item{Video object segmentation for long videos.}
+        \end{itemize}  
+      \resumeItem{{Simon Frew - [Winter 2023]}}
+          {}
+        \begin{itemize}
+            \item{Neural networks on dietary data with measurement error.}
+        \end{itemize} 
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Undergraduate Research Assistants}{2020 - 2024}
+      \resumeItemListStart
+        \resumeItem{{Stephie Liu - [Spring 2025]}}
+          {}
+        \begin{itemize}
+            \item{Rink agnostic homography estimation for Ice Hockey.}
+        \end{itemize}  
+        \resumeItem{{Jonathan Dumanski - [Winter 2025]}}
+          {}
+        \begin{itemize}
+            \item{Rink agnostic homography estimation for Ice Hockey.}
+        \end{itemize}  
+        \resumeItem{{Soyeon Jang - [Winter 2024]}}
+          {}
+        \begin{itemize}
+            \item{Doppler Ultrasound image classification.}
+        \end{itemize}  
+      \resumeItem{{Michael Frew - [Fall 2023]}}
+          {}
+        \begin{itemize}
+            \item{Doppler Ultrasound data analysis.}
+        \end{itemize}        
+      \resumeItem{{Xin Xue - [Fall 2023]}}
+          {}
+        \begin{itemize}
+            \item{Continual learning on custom diffusion model.}
+        \end{itemize}      
+      \resumeItem{{Zeyad Moustafa - [Spring 2023]}}
+          {}
+        \begin{itemize}
+            \item{Designing a long video object segmentation dataset for continual learning.}
+        \end{itemize}
+      \resumeItem{{David Eric Austin - [Winter 2022]}}
+          {}
+        \begin{itemize}
+            \item{Neural networks on dietary data.}
+        \end{itemize}
+      \resumeItem{{Anita Hu - [Spring 2020]}}
+          {}
+        \begin{itemize}
+            \item{Continual learning for classification tasks.}
+        \end{itemize}    
+      \resumeItemListEnd
+
+        \resumeSubheading
+      {University of Waterloo}{Waterloo, Canada}
+      {Undergraduate Capstone Project}{2025 - present}
+      \resumeItemListStart
+          \resumeItem{{Supervising a team of 6 undergrad students.}}
+          {}
+        \begin{itemize}
+            \item{An LLM based coach assistant questioning and answering system via the RAG architectural approach.}
+        \end{itemize}  
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- Professional experiences
+ \section{Professional Experience}
+   \resumeSubHeadingListStart
+    \resumeSubheading
+    {Shiraz University | Industrial Projects}{Shiraz, Iran}{Management and Development}{2012 - 2017}
+    \resumeItemListStart
+      \resumeItem{\textbf{Vision-Based Vehicle Speed Estimation (Using a single camera) - [2015 - 2017]}}
+    \begin{itemize}
+        \item{Role: \textbf{Project manager.}}
+    \item{Spearheaded a major initiative for Shiraz University in collaboration with Shiraz municipality.} 
+    \item{Led the development of 10 cutting-edge hardware and software vision-based speed estimation systems.} 
+    \end{itemize}
+
+      \resumeItem{\textbf{Iranian on-road vehicles Make and Model Recognition (MMR) System - [2012 - 2014]}}
+    \begin{itemize}
+    \item{Role: \textbf{Main contributor}}
+    \item{A Shiraz University project for vehicle MMR of 50 vehicle models.}
+    \end{itemize}
+
+    \resumeItem{\textbf{License Plate Recognition (LPR) and Optical Character Recognition (OCR) - [2012 - 2013]}}
+    \begin{itemize}
+    \item{Role: \textbf{Developer}}
+    \item{Working on fast feature learning methods.}
+    \end{itemize}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Fars Science and Technology Park (FSTP) }{Shiraz, Iran}
+      {Co-founder}{2013 - 2015}
+        \resumeItemListStart
+      \resumeItem{{Pars Tadbir Intelligent Processing Co.}}
+    \begin{itemize}
+    \item{Virtual showroom platform powered by AI and augmented reality (AR) technology.}  
+    \end{itemize}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------Publications-----------------
+ \section{Publications}
+ \resumeItemListStart
+    \item {Buzko K.,~\textbf{Nazemi A.}, Clausi DA., Chen Y. Position Paper: Ice Hockey Action Recognition via Contextual Priors. In Linköping Hockey Analytics Conference. 2025. (~\textbf{Best Paper Award})}
+
+    \item {Iaboni E., Negulescu S., Pitassi M.,~\textbf{Nazemi A.}, Bright J., Chomko V., Clausi DA., Dickinson S., Brecht T. Position Paper: New Views of Shots-Towards Measures of Net Visibility and Reachability. In Linköping Hockey Analytics Conference. 2025.}
+    
+    \item {Salass L., Bright J., Fieguth P.~\textbf{Nazemi A.}, Chen Y., Zelek J., Clausi D. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2025.}
+    
+    \item {Spicker D., \textbf {Nazemi A.}, Hutchinson J., Fieguth P., Kirkpatrick S.I., Wallace M., Dodd K.W. Challenges for Predictive Modeling With Neural Network Techniques Using Error‐Prone Dietary Intake Data. Statistics in Medicine, 2025.}
+
+    \item {\textbf {Nazemi, A.}, Sepanj, M.H., Pellegrino, N., Czarnecki, C. and Fieguth, P. Particle-Filtering-based Latent Diffusion for Inverse Problems. arXiv preprint, 2024.}
+    
+    \item {\textbf {Nazemi, A.}, Shafiee, M.J., Gharaee, Z. and Fieguth, P. Memory-Efficient Continual Learning Object Segmentation for Long Videos. IEEE Access. 2024}
+
+    \item {Sepanj, M. H., \textbf {Nazemi, A.}, Preston, C., Lee, A. M. and Fieguth, P. From Single Shot to Structure: End-to-End Network-Based Deflectometry for Specular Free-Form Surface Reconstruction. Applied Sciences, 2024.}
+
+    \item {\textbf {Nazemi, A}. Continual learning-based Video Object Segmentation.[Doctoral dissertation, University of Waterloo], UWSpace, 2023.~\href{http://hdl.handle.net/10012/19583}{\underline{http://hdl.handle.net/10012/19583}}}
+
+    \item{\textbf {Nazemi, A.}, Moustafa, Z., Fieguth, P. Clvos23: A long video object segmentation dataset for continual learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.}
+
+    \item{Shafiee, M. J., Jeddi, A., \textbf {Nazemi, A.}, Fieguth, P., Wong, A. "Deep Neural Network Perception Models and Robust Autonomous Driving Systems: Practical Solutions for Mitigation and Improvement." IEEE Signal Processing Magazine 38.1 (2020): 22-30.}
+
+    \item{\textbf {Nazemi, A.}, Fieguth, P. "Identifying threatening samples for adversarial robustness," Safety and Robustness in Decision Making — NeurIPS 2019 workshop, Vancouver, 2019.}
+
+    \item{\textbf {Nazemi, A.}, Fieguth, P. "Potential adversarial samples for white-box attacks," ML with guarantees NeurIPS 2019 workshop, Vancouver, 2019}
+
+    \item{\textbf {Nazemi, A.}, Azimifar, Z., Shafiee, M.J., Wong, A. Real-Time Vehicle Make and Model Recognition Using Unsupervised Feature Learning. IEEE Transactions on Intelligent Transportation Systems. 2019.}
+
+    \item{\textbf {Nazemi, A.}, Kamyab, S., Azimifar, Z., Fieguth, P. Human Perception-based Image Enhancement Using a Deep Generative Model. Journal of Computational Vision and Imaging Systems. 2018 Dec 24;4(1):3-.}
+
+    \item{\textbf {Nazemi, A.}, Azimifar, Z. "Locality hash-table constrain linear coding for fast image classification." Computer Society of Iran Computer Conference (CSICC), 2015, Iran (In Persian).}
+
+    \item{\textbf {Nazemi} et. al. "The Impact of Microsoft Kinect on Business Model Innovation." 18th Annual Asian Science Park Association (ASPA) international conference, 2014, Shiraz-Iran.}
+
+    \item{\textbf {Nazemi, A.}, Azimifar, Z. "Assessment of Photo Aesthetics via Sparse Coding." International Conference of Cognitive Science (ICCS), 2013 5th 7-9 May 2013, Tehran – Iran.} 
+
+    \item{\textbf {Nazemi, A.}, Shafiee, M.J., and Azimifar, Z. "On road vehicle make and model recognition via sparse feature coding." Machine Vision and Image Processing (MVIP), 2013 8th Iranian Conference on. IEEE, 2013.} 
+      \resumeItemListEnd
+
+%-----------References-----------------
+ \section{References}
+\begin{itemize}
+    \item {References available upon request.}
+\end{itemize}
+
+%-------------------------------------------
+\end{document} 

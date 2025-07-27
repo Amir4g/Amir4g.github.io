@@ -1,34 +1,119 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"clausi":
+  - firstname: ["David A.", "D.A.", "David"]
+    url: https://uwaterloo.ca/systems-design-engineering/people-profiles/david-clausi
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"fieguth":
+  - firstname: ["Paul", "P.", "P.W."]
+    url: https://uwaterloo.ca/systems-design-engineering/people-profiles/paul-fieguth
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"shafiee":
+  - firstname: ["Mohammad Javad", "M.J.", "Mohammad"]
+    url: https://uwaterloo.ca/systems-design-engineering/people-profiles/mohammad-javad-shafiee
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"azimifar":
+  - firstname: ["Zohreh", "Z."]
+    url: https://cse.shirazu.ac.ir/en/people/faculty/azimifar
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"wong":
+  - firstname: ["Alexander", "A.", "Alex"]
+    url: https://uwaterloo.ca/systems-design-engineering/people-profiles/alexander-wong
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"chen":
+  - firstname: ["Yifan", "Y."]
+    url: https://uwaterloo.ca/systems-design-engineering/people-profiles/yifan-chen
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"buzko":
+  - firstname: ["Kyle", "K."]
+    url: #
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"sepanj":
+  - firstname: ["Mohammad Hossein", "M.H."]
+    url: #
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"gharaee":
+  - firstname: ["Zahra", "Z."]
+    url: #
+
+"moustafa":
+  - firstname: ["Zeyad", "Z."]
+    url: #
+
+"jeddi":
+  - firstname: ["Ali", "A."]
+    url: #
+
+"kamyab":
+  - firstname: ["Saeed", "S."]
+    url: #
+
+"pellegrino":
+  - firstname: ["Nicolas", "N."]
+    url: #
+
+"czarnecki":
+  - firstname: ["Christopher", "C."]
+    url: #
+
+"preston":
+  - firstname: ["Chris", "C."]
+    url: #
+
+"lee":
+  - firstname: ["Andrew M.", "A.M."]
+    url: #
+
+"spicker":
+  - firstname: ["Daniel", "D."]
+    url: #
+
+"hutchinson":
+  - firstname: ["James", "J."]
+    url: #
+
+"kirkpatrick":
+  - firstname: ["Sharon I.", "S.I."]
+    url: #
+
+"wallace":
+  - firstname: ["Matthew", "M."]
+    url: #
+
+"dodd":
+  - firstname: ["Kevin W.", "K.W."]
+    url: #
+
+"iaboni":
+  - firstname: ["Evan", "E."]
+    url: #
+
+"negulescu":
+  - firstname: ["Stefan", "S."]
+    url: #
+
+"pitassi":
+  - firstname: ["Michael", "M."]
+    url: #
+
+"bright":
+  - firstname: ["James", "J."]
+    url: #
+
+"chomko":
+  - firstname: ["Vladimir", "V."]
+    url: #
+
+"dickinson":
+  - firstname: ["Suzanne", "S."]
+    url: #
+
+"brecht":
+  - firstname: ["Thomas", "T."]
+    url: #
+
+"salass":
+  - firstname: ["Lucas", "L."]
+    url: #
+
+"zelek":
+  - firstname: ["John", "J."]
+    url: #
